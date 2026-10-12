@@ -11,5 +11,6 @@ Fichiers générés depuis le dépôt du site (sources dans `src/public/custom-e
 | `dist/mm-cursor.js` | `mm-cursor` |
 | `dist/mm-about.js` | `mm-about` |
 | `dist/mm-projects.js` | `mm-projects` |
+| `dist/mm-contact.js` | `mm-contact` |
 
 URL : `https://cdn.jsdelivr.net/gh/maxdubox/mm-components@<version>/dist/<fichier>`
