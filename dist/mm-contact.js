@@ -34,9 +34,8 @@
         .track span { font:400 clamp(44px, 7vw, 96px)/1 'Playfair Display', Georgia, serif; color:transparent; -webkit-text-stroke:1px #4A4640; padding-right:.6em; }
         .track span i { font-style:italic; -webkit-text-stroke:1px var(--accent); }
         .sr { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); }
-        .r { opacity:0; transform:translateY(18px); }
         @media (max-width:860px) { .cards { grid-template-columns:1fr; } }
-        @media (prefers-reduced-motion: reduce) { .r { opacity:1; transform:none; } * { transition:none !important; } }
+        @media (prefers-reduced-motion: reduce) { * { transition:none !important; } }
       </style>
       <div class="wrap">
         ${t("eyebrow")?`<span class="eyebrow r">${G(t("eyebrow"))}</span>`:""}
