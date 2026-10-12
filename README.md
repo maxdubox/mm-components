@@ -9,5 +9,7 @@ Fichiers générés depuis le dépôt du site (sources dans `src/public/custom-e
 | `dist/mm-carousel.js` | `mm-carousel` |
 | `dist/mm-reveal-text.js` | `mm-reveal-text` |
 | `dist/mm-cursor.js` | `mm-cursor` |
+| `dist/mm-about.js` | `mm-about` |
+| `dist/mm-projects.js` | `mm-projects` |
 
 URL : `https://cdn.jsdelivr.net/gh/maxdubox/mm-components@<version>/dist/<fichier>`
