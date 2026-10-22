@@ -21,6 +21,19 @@
         button:hover { background:var(--accent); color:#0E0E0E; }
         button:focus-visible { outline:2px solid var(--accent); outline-offset:3px; }
         @media (max-width:860px) { .grid { grid-template-columns:1fr; } figure { max-width:460px; } .line { right:-12px; bottom:-12px; top:12px; left:12px; } }
+        @media (max-width:560px) {
+          :host { padding:48px 20px; font-size:16px; line-height:1.65; }
+          .grid { gap:40px; }
+          figure { max-width:none; margin-right:10px; }
+          .line { right:-10px; bottom:-10px; top:10px; left:10px; }
+          h2 { font-size:clamp(32px, 10vw, 40px); margin-bottom:20px; }
+          p:first-of-type { font-size:17px; }
+          .stats { gap:10px; margin-top:28px; padding-top:22px; }
+          .stat b { font-size:clamp(26px, 8.5vw, 32px); }
+          .stat span { font-size:12px; line-height:1.35; }
+          .foot { margin-top:28px; }
+          button { width:100%; justify-content:center; }
+        }
       </style>
       <div class="grid">
         <figure>
